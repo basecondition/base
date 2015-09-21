@@ -1,0 +1,10 @@
+// basecondition ~ base
+// copyright 2015 ~ Joachim Doerr ~ hello@basecondition.com
+// licensed under MIT or GPLv3 ~ git.io/OJYZgw
+
+// @method font-awesome
+// @usage: @include font-awesome;
+
+@mixin font-awesome() {
+  @include font-face(FontAwesome, '/assets/vendor/font-awesome/fonts/fontawesome-webfont');
+}

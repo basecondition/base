@@ -1,0 +1,15 @@
+// basecondition ~ base
+// copyright 2015 ~ Joachim Doerr ~ hello@basecondition.com
+// licensed under MIT or GPLv3 ~ git.io/OJYZgw
+
+// @function: px
+
+@function px($emval, $base: $em-base) {
+    @if not unitless($emval) {
+        $emval: strip-units($emval);
+    }
+    @if not unitless($base) {
+        $base: strip-units($base);
+    }
+    @return ($emval * $base) * 1px;
+}
