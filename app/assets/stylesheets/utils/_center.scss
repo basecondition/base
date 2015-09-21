@@ -1,0 +1,30 @@
+// basecondition ~ base
+// copyright 2015 ~ Joachim Doerr ~ hello@basecondition.com
+// licensed under MIT or GPLv3 ~ git.io/OJYZgw
+
+// @method: center
+// @usage: @include center;
+
+@mixin center() {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// @method: center-list
+// @usage: @include center-list;
+
+@mixin center-list() {
+    float: right;
+    text-align: left;
+    position: relative;
+    left: -50%;
+
+    ul {
+        position: relative;
+        left: 50%;
+
+        li {
+            float: left;
+        }
+    }
+}

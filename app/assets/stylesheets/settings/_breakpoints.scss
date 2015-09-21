@@ -1,0 +1,34 @@
+// basecondition ~ base
+// copyright 2015 ~ Joachim Doerr ~ hello@basecondition.com
+// licensed under MIT or GPLv3 ~ git.io/OJYZgw
+
+// media queries breakpoints from bootstrap
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// extra small screen / phone
+$screen-xs:                  480px;
+$screen-xs-min:              $screen-xs;
+$screen-phone:               $screen-xs-min;
+
+// small screen / tablet
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+$screen-tablet:              $screen-sm-min;
+
+// medium screen / desktop
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+$screen-desktop:             $screen-md-min;
+
+// large screen / wide desktop
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+$screen-lg-desktop:          $screen-lg-min;
+
+// maximum media queries
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              $screen-sm-min - 1px;
+$screen-sm-max:              $screen-md-min - 1px;
+$screen-md-max:              $screen-lg-min - 1px;
+
+$screen-phone-max:           $screen-xs-max;
