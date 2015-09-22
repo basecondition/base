@@ -10,16 +10,34 @@
         min-height: 100%;
         position: relative;
 
-        #{$main} {
+        > #{$main} {
             position: relative;
             min-height: $main-min-height;
             padding-bottom: ceil(strip-units($footer-height) + strip-units($main-bottom-padding)) * 1px;
         }
-        #{$footer} {
+        > #{$footer} {
             position: absolute;
             height: $footer-height;
             width: 100%;
             bottom: 0;
         }
+    }
+}
+
+// @method: unset-sticky-footer
+// @usage: @include unset-sticky-footer();
+
+@mixin unset-sticky-footer($main: #main, $footer: footer) {
+    min-height: inherit;
+
+    > #{$main} {
+        position: relative;
+        min-height: inherit;
+        padding-bottom: 0;
+    }
+    > #{$footer} {
+        position: relative;
+        height: inherit;
+        bottom: inherit;
     }
 }
