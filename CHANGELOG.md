@@ -1,5 +1,12 @@
 ## Basecondition Base Changelog
 
+### 1.0.1
+
+* add font-awesome as composer require
+* refactor html mixin
+* add _all loading files for sub-folders
+* improve the readme
+ 
 ### 1.0.0
 
 * refactor grid unset util collection
