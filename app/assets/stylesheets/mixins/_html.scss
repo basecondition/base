@@ -1,26 +1,19 @@
-// basecondition ~ base
-// copyright 2015 ~ Joachim Doerr ~ hello@basecondition.com
-// licensed under MIT or GPLv3 ~ git.io/OJYZgw
-
 // @method: html
-// @usage: @include html(#fff,#222,1em,1.4);
+// @usage: @include html(#222,1em,1.4,#fff);
 
-@mixin html($background: #fff, $color: #222, $font-size: 1em, $line-height: 1.4) {
-    @include unset-distances;
-    position: relative;
-    width: 100%;
-    height: 100%;
-
+@mixin html($color: #222, $font-size: 1em, $line-height: 1.4, $background: #fff) {
+    @if type_of($color) == color {
+        color: $color;
+    }
+    @if (unit($font-size)) {
+        font-size: $font-size;
+    }
+    @if (unit($line-height)) {
+        line-height: $line-height;
+    }
     @if type_of($background) == color {
         background-color: $background;
     } @else if $background {
         @include background($background);
-    }
-    @if type_of($color) == color {
-        color: $color;
-    }
-    @if (unit($font-size) && unit($line-height)) {
-        font-size: $font-size;
-        line-height: $line-height;
     }
 }

@@ -1,6 +1,6 @@
 // basecondition ~ base
-// copyright 2015 ~ Joachim Doerr ~ hello@basecondition.com
-// licensed under MIT or GPLv3 ~ git.io/OJYZgw
+// copyright 2016 ~ Joachim Doerr ~ hello@basecondition.com
+// licensed under MIT ~ git.io/OJYZgw
 
 // bourbon
 @import "../../../../../bower_components/bourbon/app/assets/stylesheets/bourbon";
@@ -13,21 +13,7 @@
 
 // basecondition
 @import
-"settings/breakpoints",
-"settings/colors",
-
-"helpers/em-to-px",
-
-"mixins/font",
-"mixins/html",
-"mixins/icon",
-"mixins/respond-to",
-"mixins/sticky-footer",
-
-"utils/body",
-"utils/center",
-"utils/clearfix",
-"utils/font-awesome",
-"utils/clearfix",
-"utils/seo-helper",
-"utils/unset";
+"settings/all",
+"helpers/all",
+"mixins/all",
+"utils/all";
