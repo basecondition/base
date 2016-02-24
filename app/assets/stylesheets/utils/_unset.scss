@@ -1,8 +1,4 @@
-// basecondition ~ base
-// copyright 2015 ~ Joachim Doerr ~ hello@basecondition.com
-// licensed under MIT or GPLv3 ~ git.io/OJYZgw
-
-// @method: .unset-distances
+// @method: unset-distances
 // @usage: @include unset-distances;
 
 @mixin unset-distances() {
@@ -10,7 +6,7 @@
     padding: 0;
 }
 
-// @method: .unset-list
+// @method: unset-list
 // @usage: @include unset-list;
 
 @mixin unset-list() {
@@ -22,7 +18,7 @@
     }
 }
 
-// @method: .unset-outline
+// @method: unset-outline
 // @usage: @include unset-outline;
 
 @mixin unset-outline() {
@@ -39,8 +35,8 @@
     }
 }
 
-// @method: .unset-grid-column
-// @usage: @include unset-grid-column;
+// @method: unset-span-column
+// @usage: @include unset-span-column;
 
 @mixin unset-span-column() {
     margin-left: 0;
@@ -51,16 +47,16 @@
     display: block;
 }
 
-// @method: .unset-grid-offset
-// @usage: @include unset-grid-offset;
+// @method: unset-offset
+// @usage: @include unset-offset;
 
 @mixin unset-offset() {
     margin-left: 0;
     margin-right: 0;
 }
 
-// @method: .unset-grid-wrapper
-// @usage: @include unset-grid-wrapper;
+// @method: unset-outer-container
+// @usage: @include unset-outer-container;
 
 @mixin unset-outer-container() {
     width: auto;
