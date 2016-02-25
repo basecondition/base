@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "koala-framework/composer-extra-assets": "~1.1",
+        "koala-framework/composer-extra-assets": "~2.0",
         "components/font-awesome": "*"
     },
     "extra": {
