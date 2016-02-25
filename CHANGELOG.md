@@ -8,6 +8,8 @@
 * improve the readme
 * remove my name
 * add dev-develop in readme for composer require
+* use composer-extra-assets v2.x
+
 
  
 ### 1.0.0

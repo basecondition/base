@@ -1,6 +1,6 @@
 # Basecondition Base
 
-Basecondition uses the fantastic bourbon resources and adjust helpful utils and mixins.
+Basecondition base uses the fantastic bourbon resources and adjust helpful utils and mixins.
 
 ## Composer
 
