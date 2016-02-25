@@ -6,6 +6,9 @@
 * refactor html mixin
 * add _all loading files for sub-folders
 * improve the readme
+* remove my name
+* add dev-develop in readme for composer require
+
  
 ### 1.0.0
 

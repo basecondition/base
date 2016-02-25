@@ -12,7 +12,7 @@ Add `basecondition/base` as require in your `composer.json`
 
     {
         "require": {
-            "basecondition/base": "*"
+            "basecondition/base": "dev-develop"
         }
     }
 
@@ -34,4 +34,4 @@ The basecondition family offers helpful resources for frontend development.
 
 Copyright 2016 Joachim Doerr, hello@basecondition.com
 
-Bascondition is MIT licensed, read [LICENSE.md](LICENSE).
+Bascondition is MIT licensed, read [LICENSE](LICENSE).
