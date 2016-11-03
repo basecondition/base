@@ -1,5 +1,10 @@
 ## Basecondition Base Changelog
 
+### 1.1.0
+
+* remove _all.scss files and add includes to _base.scss
+* add utils helpers 
+
 ### 1.0.1
 
 * add font-awesome as composer require

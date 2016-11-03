@@ -12,8 +12,22 @@
 @import "../../../../../bower_components/neat/app/assets/stylesheets/neat";
 
 // basecondition
-@import
-"settings/all",
-"helpers/all",
-"mixins/all",
-"utils/all";
+// settings
+@import "settings/breakpoints";
+@import "settings/colors";
+// helpers
+@import "helpers/em-to-px";
+// mixins
+@import "mixins/font";
+@import "mixins/html";
+@import "mixins/icon";
+@import "mixins/respond-to";
+@import "mixins/sticky-footer";
+// utils
+@import "utils/body";
+@import "utils/center";
+@import "utils/clearfix";
+@import "utils/font-awesome";
+@import "utils/helpers";
+@import "utils/seo-helper";
+@import "utils/unset";
