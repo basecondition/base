@@ -1,6 +1,6 @@
 // @method font-awesome
 // @usage: @include font-awesome;
 
-@mixin font-awesome($path: '/assets/vendor/font-awesome/fonts/fontawesome-webfont') {
+@mixin font-awesome($path: '/vendor/components/font-awesome/fonts/fontawesome-webfont') {
   @include font-face(FontAwesome, $path);
 }
