@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "twbs/bootstrap-sass": "dev-master",
+        "twbs/bootstrap-sass": "^v3.3",
         "koala-framework/composer-extra-assets": "~2.0",
         "components/font-awesome": "*"
     },
