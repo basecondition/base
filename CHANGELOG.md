@@ -1,5 +1,13 @@
 ## Basecondition Base Changelog
 
+### 2.0.0
+
+* add bootstrap sass
+* add bourbon master
+* add neat master
+* remove lib include in _base.scss
+* remove sticky footer mixin
+
 ### 1.1.0
 
 * remove _all.scss files and add includes to _base.scss
@@ -14,8 +22,6 @@
 * remove my name
 * add dev-develop in readme for composer require
 * use composer-extra-assets v2.x
-
-
  
 ### 1.0.0
 

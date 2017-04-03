@@ -1,18 +1,7 @@
 // basecondition ~ base
-// copyright 2016 ~ hello@basecondition.com
+// copyright 2017 ~ hello@basecondition.com
 // licensed under MIT ~ git.io/OJYZgw
 
-// bourbon
-@import "../../../../../bower_components/bourbon/app/assets/stylesheets/bourbon";
-
-// base grid-settings
-@import "settings/grid";
-
-// neat
-@import "../../../../../bower_components/neat/contrib/styles";
-@import "../../../../../bower_components/neat/core/neat";
-
-// basecondition
 // settings
 @import "settings/breakpoints";
 @import "settings/colors";
@@ -23,7 +12,6 @@
 @import "mixins/html";
 @import "mixins/icon";
 @import "mixins/respond-to";
-@import "mixins/sticky-footer";
 // utils
 @import "utils/body";
 @import "utils/center";
