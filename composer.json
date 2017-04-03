@@ -8,7 +8,8 @@
         "basecondition",
         "base",
         "bourbon",
-        "neat"
+        "neat",
+        "bootstrap"
     ],
     "homepage": "http://basecondition.com",
     "license": "MIT",

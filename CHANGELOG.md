@@ -7,6 +7,8 @@
 * add neat master
 * remove lib include in _base.scss
 * remove sticky footer mixin
+* remove unused files
+* update readme
 
 ### 1.1.0
 
