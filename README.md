@@ -11,7 +11,13 @@ Add `basecondition/base` as require in your `composer.json`
 
     {
         "require": {
-            "basecondition/base": "dev-develop"
+            "basecondition/base": "dev-master",
+            "components/jquery": "*",
+            "components/modernizr": "*",
+            "components/font-awesome": "*"
+        },
+        "config": {
+            "component-dir": "web/assets/vendor/"
         }
     }
 
