@@ -33,6 +33,9 @@ Add `basecondition/base` as require in your `composer.json`
     // neat
     @import "../../vendor/bower_components/neat/contrib/styles";
     @import "../../vendor/bower_components/neat/core/neat";
+    
+    // load font-awesome
+    @include font-awesome("/web/assets/vendor/font-awesome/fonts/fontawesome-webfont");
 
     // bootstrap
     // import sprockets ever before import other bootstrap resources
