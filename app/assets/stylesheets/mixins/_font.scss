@@ -1,16 +1,16 @@
 // @method: font-size
-// @usage: @include font-size(12px);
+// @usage: @include font-size(12px, "!important");
 // @syntax: em|px|%
 
-@mixin font-size($size) {
+@mixin font-size($size, $suffix: '') {
     @if (unit($size) == px) {
-        font-size: $size;
-        font-size: rem($size);
+        font-size: $size #{$suffix};
+        font-size: rem($size) #{$suffix};
     } @else if (unit($size) == em or unit($size) == rem) {
-        font-size: px($size);
-        font-size: strip-units($size) * 1rem;
+        font-size: px($size) #{$suffix};
+        font-size: strip-units($size) * 1rem #{$suffix};
     } @else {
-        font-size: $size;
+        font-size: $size #{$suffix};
     }
 }
 
