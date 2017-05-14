@@ -3,8 +3,13 @@
 // licensed under MIT ~ git.io/OJYZgw
 
 // settings
+@import "settings/px-to-em";
 @import "settings/breakpoints";
 @import "settings/colors";
+// functions
+@import "functions/strip-units";
+@import "functions/px-to-em";
+@import "functions/px-to-rem";
 // helpers
 @import "helpers/em-to-px";
 // mixins

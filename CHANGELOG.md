@@ -1,5 +1,11 @@
 ## Basecondition Base Changelog
 
+### 2.1.0
+
+* ready for bourbon 5
+* fix font-size calculation error
+* add bulma
+
 ### 2.0.0
 
 * add bootstrap sass

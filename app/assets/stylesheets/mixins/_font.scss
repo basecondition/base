@@ -18,28 +18,28 @@
 // @usage: @include line-height(12px);
 // @syntax: em|px|%
 
-@mixin line-height($size) {
+@mixin line-height($size, $suffix: '') {
     @if (unit($size) == px) {
-        line-height: $size;
-        line-height: rem($size);
+        line-height: $size #{$suffix};
+        line-height: rem($size) #{$suffix};
     } @else if (unit($size) == em or unit($size) == rem) {
-        line-height: px($size);
-        line-height: strip-units($size) * 1rem;
+        line-height: px($size) #{$suffix};
+        line-height: strip-units($size) * 1rem #{$suffix};
     } @else {
-        line-height: $size;
+        line-height: $size #{$suffix};
     }
 }
 
 // @method: shorthand
 // @usage: @include shorthand(12px, 120%, normal);
 
-@mixin shorthand($size: 14px, $line-height: false, $weight: flase) {
-    @include font-size($size);
+@mixin shorthand($size: 14px, $line-height: false, $weight: flase, $suffix: '') {
+    @include font-size($size, $suffix);
     @if $line-height {
-        @include line-height($line-height);
+        @include line-height($line-height, $suffix);
     }
     @if $weight {
-        font-weight: $weight;
+        font-weight: $weight, $suffix;
     }
 }
 

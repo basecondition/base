@@ -11,7 +11,7 @@ Add `basecondition/base` as require in your `composer.json`
 
     {
         "require": {
-            "basecondition/base": "dev-master",
+            "basecondition/base": "2.*",
             "components/jquery": "*",
             "components/modernizr": "*",
             "components/font-awesome": "*"
@@ -84,13 +84,13 @@ Add `basecondition/base` as require in your `composer.json`
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/wells";
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/close";
-    //
-    // Components w/ JavaScript
+
+    // Components JavaScript
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/modals";
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
-    //
+
     // Utility classes
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
     // @import "../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
@@ -109,7 +109,7 @@ The basecondition family offers helpful resources for frontend development.
 * [Sass](https://github.com/sass/sass)
 * [Bootstrap-sass](https://github.com/twbs/bootstrap-sass)
 * [Bourbon](https://github.com/thoughtbot/bourbon)
-* [Neat](https://github.com/thoughtbot/neat)
+* [Bulma](https://github.com/jgthms/bulma)
 
 
 ## Licence
