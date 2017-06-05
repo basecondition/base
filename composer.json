@@ -1,33 +1,21 @@
 {
-    "name": "basecondition/base",
-    "type": "library",
-    "description": "Basecondition Base",
-    "keywords": [
-        "scss",
-        "library",
-        "basecondition",
-        "base",
-        "bourbon",
-        "bulma",
-        "bootstrap"
-    ],
-    "homepage": "http://basecondition.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Joachim Doerr",
-            "email": "hello@basecondition.com"
-        }
-    ],
-    "require": {
-        "twbs/bootstrap-sass": "^v3.3",
-        "koala-framework/composer-extra-assets": "~2.0",
-        "components/font-awesome": "*"
-    },
-    "extra": {
-        "require-bower": {
-            "bourbon": "master",
-            "bulma": "master"
-        }
+  "name": "basecondition/base",
+  "type": "library",
+  "description": "A lightweight Sass tool set.",
+  "keywords": [
+    "css",
+    "mixins",
+    "sass",
+    "scss",
+    "basecondition",
+    "base"
+  ],
+  "homepage": "http://basecondition.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joachim Doerr",
+      "email": "hello@basecondition.com"
     }
+  ]
 }

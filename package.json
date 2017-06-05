@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "Joachim Doerr",
+    "url": "http://doerr-softwaredevelopment.com"
+  },
+  "bugs": {
+    "url": "https://github.com/basecondition/base/issues"
+  },
+  "description": "A lightweight Sass tool set.",
+  "homepage": "http://basecondition.com",
+  "keywords": [
+    "css",
+    "mixins",
+    "sass",
+    "scss",
+    "basecondition",
+    "base"
+  ],
+  "license": "MIT",
+  "name": "basecondition",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basecondition/base.git"
+  },
+  "version": "3.0.0"
+}

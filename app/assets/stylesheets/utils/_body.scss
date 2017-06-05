@@ -1,8 +1,0 @@
-// @method: body
-// @usage: @include body;
-
-@mixin body() {
-    @include unset-distances;
-    width: 100%;
-    height: 100%;
-}
