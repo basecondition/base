@@ -15,7 +15,7 @@ or add basecondition to your dependencies
  
     {
         "dependencies": {
-            "basecondition": "^3.0.1"
+            "basecondition": "^3.1.0"
         }
     }
 
