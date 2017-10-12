@@ -3,9 +3,10 @@
 // licensed under MIT ~ git.io/OJYZgw
 
 // settings
-@import "settings/px-to-em";
 @import "settings/breakpoints";
 @import "settings/colors";
+@import "settings/grid";
+@import "settings/px-to-em";
 
 // functions
 @import "functions/strip-units";
@@ -13,15 +14,21 @@
 @import "functions/px-to-rem";
 
 // helpers
+@import "helpers/contains";
 @import "helpers/em-to-px";
-
-// mixins
-@import "mixins/font";
-@import "mixins/icon";
-@import "mixins/respond-to";
+@import "helpers/font-source-declaration";
 
 // utils
 @import "utils/center";
+@import "utils/clearfix";
 @import "utils/helpers";
 @import "utils/seo-helper";
-@import "utils/unset";
+
+// mixins
+@import "mixins/ellipsis";
+@import "mixins/font";
+@import "mixins/grid";
+@import "mixins/icon";
+@import "mixins/keyframes";
+@import "mixins/placeholder";
+@import "mixins/triangle";
