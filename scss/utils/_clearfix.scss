@@ -1,0 +1,13 @@
+// Acknowledgements:
+// Thierry Koblentz, cssmojo
+// http://goo.gl/AQWvyH
+// @method: cfx
+// @usage: @include cfx();
+
+@mixin cfx {
+    &::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+}
