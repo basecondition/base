@@ -1,7 +1,6 @@
 // black + white
 $black:                      #000;
 $white:                      #fff;
-
 // gray
 $gray-darker:                lighten($black, 13.5%); // #222
 $gray-dark:                  lighten($black, 20%);   // #333
@@ -9,7 +8,6 @@ $gray:                       lighten($black, 33.5%); // #555
 $gray-light:                 lighten($black, 60%);   // #999
 $gray-lighter:               lighten($black, 93.5%); // #eee
 $gray-more-lighter:          lighten($black, 96.5%); // #f6f6f6
-
 // default colors
 $blue:                       #049cdb;
 $blue-dark:                  #0064cd;
@@ -21,7 +19,6 @@ $yellow:                     #ffc40d;
 $orange:                     #f89406;
 $pink:                       #c3325f;
 $purple:                     #7a43b6;
-
 // flatuicolors.com
 $turquoise:                  #1abc9c;
 $emerald:                    #2ecc71;
