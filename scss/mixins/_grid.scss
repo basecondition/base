@@ -34,7 +34,7 @@
 
 @mixin column($index: 1, $number-of-columns: $grid-columns, $gutter-width: $grid-gutter-width) {
     @if (unitless($index) && unitless($number-of-columns)) {
-        @include box-sizing(border-box);
+        box-sizing: border-box;
         float: left;
         width: percentage((strip-units($index) / strip-units($number-of-columns)));
 
